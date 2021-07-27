@@ -2,11 +2,15 @@
 ## Simpler and intuitive approach
 
 Uses only one styling dependency
-[@emotion/css](https://github.com/emotion-js/emotion/tree/master/packages/css),
+[@emotion/react](https://github.com/emotion-js/emotion/tree/master/packages/react)
+
+With the css props approach
+[emotion.sh/docs/css-prop](https://emotion.sh/docs/css-prop)
+
 
 ## Preview
 
-Preview the example live on [Here](with-emotion-css-props.errbint.net):
+Preview the example live on [Here](with-emotion-css-props.errbint.net)
 
 ## Deploy your own
 
@@ -23,5 +27,9 @@ npx create-next-app --example with-emotion-css-props with-emotion-css-props-app
 # or
 yarn create next-app --example with-emotion-css-props with-emotion-css-props-app
 ```
+
+## Contribute
+
+Example added by [stackoverprof](https://github.com/stackoverprof)
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
