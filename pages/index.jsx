@@ -12,15 +12,14 @@ const Home = () => {
 
 			<div css={styles.hero}>
 				<h1>Hello World</h1>
-				<p>this element can be styled with nesting style to its parent</p>
+				<p>this element can be styled by nesting style to its parent</p>
 			</div>
 
 			<div css={styles.body({ width: box_width, height: box_height, color: box_color })}>
 				<div className="box-custom">square</div>
-				<p>and this is example of props passing to css emotion</p>
+				<p>and this is example of props-passing to css emotion</p>
 				<p>The css props docs : <a href="https://emotion.sh/docs/css-prop">https://emotion.sh/docs/css-prop</a></p>
 			</div>
-
 
 		</MainLayout>
 	)

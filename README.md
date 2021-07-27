@@ -1,10 +1,8 @@
-# Emotion Example
+# Emotion Example with CSS Props
+# Simpler and intuitive approach
 
-Extract and inline critical css with
+Uses only one styling dependency
 [@emotion/css](https://github.com/emotion-js/emotion/tree/master/packages/css),
-[@emotion/server](https://github.com/emotion-js/emotion/tree/master/packages/server),
-[@emotion/react](https://github.com/emotion-js/emotion/tree/master/packages/react),
-and [@emotion/styled](https://github.com/emotion-js/emotion/tree/master/packages/styled).
 
 ## Preview
 

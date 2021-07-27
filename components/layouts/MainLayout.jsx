@@ -1,16 +1,15 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Head from 'next/head';
 
-const MainLayout = ({ children, css: css_layout, title }) => {
-	useEffect(() => {
-		console.log(css_layout)
-	}, [css_layout])
+const MainLayout = ({ children, className, title }) => {
+	//one caveat is that when you pass css= at index.js, here it received as className props
+
 	return (
 		<>
 			<Head>
 				{title && <title>{title} — New Project</title>}
 			</Head>
-			<main css={css_layout}>
+			<main className={className}>
 				{children}
 			</main>
 		</>

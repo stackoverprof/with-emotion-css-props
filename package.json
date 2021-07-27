@@ -6,12 +6,12 @@
 		"start": "next start"
 	},
 	"dependencies": {
-		"@emotion/react": "^11.1.1",
+		"@emotion/react": "^11.4.0",
 		"next": "latest",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2"
 	},
 	"devDependencies": {
-		"@emotion/babel-plugin": "11.0.0"
+		"@emotion/babel-plugin": "^11.3.0"
 	}
 }
