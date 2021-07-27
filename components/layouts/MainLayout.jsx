@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Head from 'next/head';
 
 const MainLayout = ({ children, css: css_layout, title }) => {
+	useEffect(() => {
+		console.log(css_layout)
+	}, [css_layout])
 	return (
 		<>
 			<Head>

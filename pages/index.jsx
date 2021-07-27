@@ -18,7 +18,9 @@ const Home = () => {
 			<div css={styles.body({ width: box_width, height: box_height, color: box_color })}>
 				<div className="box-custom">square</div>
 				<p>and this is example of props passing to css emotion</p>
+				<p>The css props docs : <a href="https://emotion.sh/docs/css-prop">https://emotion.sh/docs/css-prop</a></p>
 			</div>
+
 
 		</MainLayout>
 	)
@@ -26,10 +28,8 @@ const Home = () => {
 
 const styles = {
 	page: css`
-		display: flex;
-		justify-content: start;
-		align-items: center;
-		flex-direction: column;
+		padding-top: 48px;
+		background: aliceblue;
 	`,
 	hero: css`
 		display: flex;
